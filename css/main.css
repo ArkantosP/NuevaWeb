@@ -99,3 +99,43 @@
 	margin-left: 5px;
 	vertical-align: middle;
 }
+
+/*****Tercer Div*****/
+
+.div3{
+	margin-top: 150px;
+}
+
+.div3 select{
+	border: none;
+	font-size: 13px;
+	font-family: 'Arial';
+	padding: 13px 13px;
+	margin-right: 20px;
+	background: #D8D8D8;
+	border-radius: 20px;
+	display: inline-block;		
+	width: 200px;
+	text-align: center;
+	float: right;
+}
+
+.div3 h1{
+	font-size: 35px;
+	text-align: left;
+	font-family: 'Julius Sans One', sans-serif;
+	margin: 5px 20px;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.div3 img{
+	width: 40px;
+	vertical-align: middle;
+}
+
+.div3 ul li{
+	list-style: none;
+	float: left;
+	width: 12.5%;
+}
