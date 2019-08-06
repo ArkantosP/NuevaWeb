@@ -1,0 +1,101 @@
+/*****Body*****/
+
+/*****Primer Div*****/
+
+.div1{
+	background: ;
+	text-align: center;
+	margin: 10px 0 150px 0;
+}
+
+.div1 form{
+	display: inline-block;
+}
+
+.div1 h1{
+	font-size: 35px;
+	text-align: center;
+	font-family: 'Julius Sans One', sans-serif;
+	margin: auto 8px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.div1 input{
+	border: none;
+	font-size: 15px;
+	font-family: 'Arial';
+	padding: 13px 13px;
+	background: #D8D8D8;
+	border-radius: 20px;
+	display: inline-block;	
+	width: 500px;
+}
+
+.div1 img{
+	width: 18px;
+	display: inline-block;
+	vertical-align: middle;
+	margin: auto 6px;
+}
+
+/*****Segundo Div*****/
+
+.div2{
+	display: block;	
+	background-color: #FFE1FB;
+	border: none;
+	border-radius: 20px;
+	position: relative;
+	margin: auto 300px;
+	padding: 50px 50px;
+}
+
+.div2 .div2_1 #img1{
+	width: 230px;
+	position: absolute;
+	bottom: 0;
+	left: 20px;
+}
+
+.div2 .div2_1 h1{
+	font-size: 20px;
+	font-family: 'Julius Sans One', sans-serif;
+	display: inline-block;
+	margin: 6px auto;
+	position: absolute;
+	left: 230px;
+}
+
+.div2 .div2_1 #img2{
+	width: 25px;
+	margin: auto 8px;
+}
+
+.div2 .div2_1 h2{
+	font-size: 13px;
+	font-family: 'Julius Sans One', sans-serif;
+	margin: 6px auto;
+	position: absolute;
+	left: 230px;
+}
+
+.div2 .div2_2{
+	position: absolute;
+	float: right;
+	background-color: ;
+	bottom: 0;
+	right: 10px;
+}
+
+.div2 .div2_2 a p{
+	font-family: 'Julius Sans One', sans-serif;	
+	display: inline-block;
+	font-size: 12px;
+}
+
+.div2 .div2_2 a img{
+	width: 18px;
+	margin-left: 5px;
+	vertical-align: middle;
+}
