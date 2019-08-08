@@ -3,9 +3,11 @@
 /*****Primer Div*****/
 
 .div1{
-	background: ;
+	background: #E87800;
+	border-top: 2px solid #FFBC74;
+	border-bottom: 2px solid #FFBC74;
 	text-align: center;
-	margin: 10px 0 150px 0;
+	margin: 0 0 100px 0;
 }
 
 .div1 form{
@@ -19,17 +21,28 @@
 	margin: auto 8px;
 	display: inline-block;
 	vertical-align: middle;
+	border-radius: 20px;
+	background-color: #fff;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+.div1 h1:hover{
+	color: #F9FB5E;
+	background-color: #E87800;
+	border-radius: 20px;
 }
 
 .div1 input{
 	border: none;
 	font-size: 15px;
 	font-family: 'Arial';
-	padding: 13px 13px;
+	padding: 10px 13px 13px;
 	background: #D8D8D8;
 	border-radius: 20px;
+	margin: 0 5px;
 	display: inline-block;	
-	width: 500px;
+	width: 420px;
 }
 
 .div1 img{
@@ -37,73 +50,28 @@
 	display: inline-block;
 	vertical-align: middle;
 	margin: auto 6px;
+	padding: 5px 5px;
+}
+
+.div1 img:hover{
+	background-color: #E8E8E8;
+	border-radius: 50%;
+	-webkit-transform: scale(1.12,1.12);
+	-webkit-transition-timing-function: ease-out;
+	-webkit-transition-duration: 100ms;
+	-moz-transform: scale(1.12,1.12);
+	-moz-transition-timing-function:ease-out;
+	-moz-transition-duration: 100ms;
 }
 
 /*****Segundo Div*****/
 
-.div2{
-	display: block;	
-	background-color: #FFE1FB;
-	border: none;
-	border-radius: 20px;
-	position: relative;
-	margin: auto 300px;
-	padding: 50px 50px;
-}
 
-.div2 .div2_1 #img1{
-	width: 230px;
-	position: absolute;
-	bottom: 0;
-	left: 20px;
-}
-
-.div2 .div2_1 h1{
-	font-size: 20px;
-	font-family: 'Julius Sans One', sans-serif;
-	display: inline-block;
-	margin: 6px auto;
-	position: absolute;
-	left: 230px;
-}
-
-.div2 .div2_1 #img2{
-	width: 25px;
-	margin: auto 8px;
-}
-
-.div2 .div2_1 h2{
-	font-size: 13px;
-	font-family: 'Julius Sans One', sans-serif;
-	margin: 6px auto;
-	position: absolute;
-	left: 230px;
-}
-
-.div2 .div2_2{
-	position: absolute;
-	float: right;
-	background-color: ;
-	bottom: 0;
-	right: 10px;
-}
-
-.div2 .div2_2 a p{
-	font-family: 'Julius Sans One', sans-serif;	
-	display: inline-block;
-	font-size: 12px;
-}
-
-.div2 .div2_2 a img{
-	width: 18px;
-	margin-left: 5px;
-	vertical-align: middle;
-}
 
 /*****Tercer Div*****/
 
 .div3{
-	margin-top: 150px;
+	margin-top: 100px;
 }
 
 .div3 select{
@@ -117,16 +85,22 @@
 	display: inline-block;		
 	width: 200px;
 	text-align: center;
+	vertical-align: middle;
 	float: right;
 }
 
 .div3 h1{
 	font-size: 35px;
-	text-align: left;
 	font-family: 'Julius Sans One', sans-serif;
 	margin: 5px 20px;
 	vertical-align: middle;
 	display: inline-block;
+}
+
+.div3 h1:hover{
+	color: #F9FB5E;
+	background-color: #E87800;
+	border-radius: 20px;
 }
 
 .div3 #img3{
@@ -134,24 +108,32 @@
 	vertical-align: middle;
 }
 
+.div3 .div3_1{
+	padding: 0;
+}
+
 .div3 .div3_1 ul{
 	margin: 10px auto;
 	clear: both;
-	display: inline-block;
 	font-family: 'Helvetica', sans-serif;
 }
 
 .div3 .div3_1 ul li{
 	background-color: #E8E8E8;
-	display: block;
+	display: inline-block;
 	position: relative;
 	list-style: none;
-	float: left;
 	width: auto;
     margin: 3px 10px;
     padding: 30px 10px;
     border: none;
     border-radius: 50px;
+    font-style: none;	
+}
+
+.div3 .div3_1 ul li a{
+	text-decoration: none;
+	color: black;
 }
 
 .div3 .div3_1 ul li:hover{
@@ -200,6 +182,12 @@
 	margin: 20px 30px 10px 30px;
 }
 
+.div4 ul li:hover{
+	background-color: #FFBC74;
+	color: black;
+	border-radius: 20px;	
+}
+
 .div4 h1{
 	font-family: 'Julius Sans One', sans-serif;
 	margin: 10px 2px 8px;
@@ -227,6 +215,25 @@
 }
 
 .div4 #img4{
+	margin-left: 4px;
 	width: 17px;
 	display: inline-block;
+	background-color: #fff;
+}
+
+.div4 #img4:hover{
+	background-color: yellow;
+}
+
+/*****Footer*****/
+
+.div5 p{
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 0px;
+	background-color: #E87800;
+	padding: 5px;
+	font-family: 'Helvetica', sans-serif;
+	border-top: 2px solid #FFBC74;
+	border-bottom: 2px solid #FFBC74;
 }
