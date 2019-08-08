@@ -38,7 +38,7 @@
 	font-size: 15px;
 	font-family: 'Arial';
 	padding: 10px 13px 13px;
-	background: #D8D8D8;
+	background: #fff;
 	border-radius: 20px;
 	margin: 0 5px;
 	display: inline-block;	
@@ -66,7 +66,75 @@
 
 /*****Segundo Div*****/
 
+.div2{
+	background-color: #FAEDDE;
+	width: 790px;
+	height: 180px;
+	margin: 0 auto;
+	border-radius: 20px;
+}
 
+.div2 .div2_1{
+	display: inline-block;
+	width: 250px;
+	height: 232px;
+	float: left;
+}
+
+.div2 .div2_2{
+	display: inline-block;
+	width: 410px;
+	height: 80px;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	float: left;
+}
+
+.div2 .div2_3{
+	display: inline-block;
+	width: 130px;
+	height: 30px;
+	float: left;
+	margin-top: 150px;
+}
+
+.div2 .div2_2 h1{
+	font-size: 20px;
+	color: #E87800;
+	font-family: 'Julius Sans One', sans-serif;
+	display: inline-block;
+}
+
+.div2 .div2_2 h2{
+	font-size: 13px;
+	font-family: 'Julius Sans One', sans-serif;
+	margin: 6px auto;
+}
+
+.div2 .div2_3 a p{
+	font-family: 'Julius Sans One', sans-serif;
+	color: #E87800;
+	font-size: 12px;
+	display: inline-block;
+	text-align: right;
+}
+
+.div2 .div2_1 #img1{
+	max-width: 250px;
+	margin: -52px 0 0 0;
+}
+
+.div2 .div2_2 #img2{
+	max-width: 30px;
+	vertical-align: middle;
+}
+
+.div2 .div2_3 #imgX{
+	max-width: 20px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 5px;
+}
 
 /*****Tercer Div*****/
 
