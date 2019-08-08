@@ -112,7 +112,7 @@
 	font-family: 'Arial';
 	padding: 13px 13px;
 	margin-right: 20px;
-	background: #D8D8D8;
+	background: #E87800;
 	border-radius: 20px;
 	display: inline-block;		
 	width: 200px;
@@ -129,13 +129,104 @@
 	display: inline-block;
 }
 
-.div3 img{
+.div3 #img3{
 	width: 40px;
 	vertical-align: middle;
 }
 
-.div3 ul li{
+.div3 .div3_1 ul{
+	margin: 10px auto;
+	clear: both;
+	display: inline-block;
+	font-family: 'Helvetica', sans-serif;
+}
+
+.div3 .div3_1 ul li{
+	background-color: #E8E8E8;
+	display: block;
+	position: relative;
 	list-style: none;
 	float: left;
-	width: 12.5%;
+	width: auto;
+    margin: 3px 10px;
+    padding: 30px 10px;
+    border: none;
+    border-radius: 50px;
+}
+
+.div3 .div3_1 ul li:hover{
+	background-color: #F9FB5E;
+	-webkit-transform: scale(1.12,1.12);
+	-webkit-transition-timing-function: ease-out;
+	-webkit-transition-duration: 100ms;
+	-moz-transform: scale(1.12,1.12);
+	-moz-transition-timing-function:ease-out;
+	-moz-transition-duration: 100ms;
+}
+
+.div3 .div3_1 ul li img{
+	border-radius: 50%;
+	width: 40px;
+	margin: -20px auto 10px; 
+	background-color: #fff;
+	padding: 10px;
+}
+
+.div3 .div3_1 ul #flecha1{
+	padding: 5px 5px 5px 5px;
+	background: #F2F2F2;
+}
+
+.div3 .div3_1 ul li #flecha1_1{
+	border-radius: 50%;
+	width: 15px;
+	margin: 0px 0px 0px 0px;
+}
+
+.div3 .div3_1 ul li p{
+	text-align: center;
+}
+
+/*****Cuarto Div*****/
+
+.div4 ul{
+	display: inline-block;
+;	list-style: none;
+}
+
+.div4 ul li{
+	display: inline-block;
+	position: relative;
+	margin: 20px 30px 10px 30px;
+}
+
+.div4 h1{
+	font-family: 'Julius Sans One', sans-serif;
+	margin: 10px 2px 8px;
+}
+
+.div4 h2{
+	display: inline-block;
+	margin: 0 auto;
+	font-family: 'Helvetica';
+	color: #2D2C2C;
+	font-size: 20px; 
+}
+
+.div4 p{
+	display: inline-block;
+	font-family: 'Helvetica';
+	color: #B7B7B7;
+	margin: 0 5px;
+}
+
+.div4 img{
+	width: 250px;
+	border: none;
+	border-radius: 20px; 
+}
+
+.div4 #img4{
+	width: 17px;
+	display: inline-block;
 }
