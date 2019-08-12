@@ -79,10 +79,56 @@
 	margin-right: 50px;
 }
 
-.div1 .panel{
-	width: 40px;
-	height: 40px;
+#li1{
+	background: #654ED9;
+	padding: 20px 20px;
+	margin: 40px auto;
+	border-radius: 20px;
+	text-align: left;
+	font-family: 'Helvetica', sans-serif;
+}
+
+#li1 #li1_1 h3{
+	display: inline-block;
+	font-size: 14px;
+	color: #fff;
+}
+
+#li1 #li1_1 p{
+	display: inline-block;
+	font-size: 10px;
 	float: right;
+	margin: 17px 0;
+	color: #E87800;
+}
+
+#li1 #li1_2 img{
+	display: inline-block;
+	width: 20px;
+	margin: 0;
+	padding: 2px;
+}
+
+#li1 #li1_2 img:hover{
+	width: 20px;
+	padding: 2px;
+	background: #8D5CDF;
+	border-radius: 5px;
+}
+
+#li1 #li1_2 h3{
+	display: inline-block;
+	font-size: 14px;
+	color: #fff;
+	margin-left: 6px;
+}
+
+#li1 #li1_2 p{
+	display: inline-block;
+	font-size: 10px;
+	float: right;
+	margin: 17px 0;
+	color: #E87800;	
 }
 
 input#abrir-cerrar {
@@ -120,7 +166,7 @@ input#abrir-cerrar:checked ~ #sidebar {
 
 input#abrir-cerrar:checked + label[for="abrir-cerrar"], input#abrir-cerrar:checked ~ #contenido {
     margin-right:300px;
-    transition: margin-right .4s;
+    transition: margin-right .2s;
 }
 
 
@@ -136,7 +182,7 @@ input#abrir-cerrar:checked + label[for="abrir-cerrar"] .abrir {
     position: fixed;
     height: 100%;
     width: 0;
-    top: 0;
+    top: 46px;
     right: 0;
     z-index: 1;
     background-color: #fff;
@@ -488,6 +534,7 @@ h1:hover{
 
 .div4 img{
 	width: 250px;
+	height: 167px;
 	border:1px solid #F9FB5E;;
 	border-radius: 20px; 
 }
@@ -495,6 +542,7 @@ h1:hover{
 .div4 #img4{
 	margin-left: 4px;
 	width: 17px;
+	height: 17px;
 	display: inline-block;
 	background-color: #fff;
 }
