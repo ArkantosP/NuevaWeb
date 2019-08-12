@@ -74,6 +74,10 @@
 	-moz-transition-duration: 100ms;
 }
 
+.panel{
+	float: right;
+}
+
 /*****Segundo Div*****/
 
 .div2{
