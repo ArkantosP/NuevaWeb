@@ -7,13 +7,13 @@
 	<link rel="stylesheet" type="text/css" href="css/responsive.css">
     <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One&display=swap" rel="stylesheet">
 	<title>Chukwudi: Domicilios Online</title>
-	<link rel="icon" type="image/gif" href="img/hambur.gif">
+	<link rel="icon" type="image/gif" href="img/cw.gif">
 </head>
 <body>
 	<div class="div1">
 		<h1>Chukwudi</h1>
     	  <form action="search.php" method="get">
-	    	<input type="search" name="search" placeholder="Restaurantes, comidas y mas...">
+	    	<input type="search" name="search" placeholder="Restaurantes, comidas y mas..." autofocus>
 			<a href="https://www.google.com"><img src="icons/126474.svg"></a>
 			<input type="checkbox" id="abrir-cerrar" name="abrir-cerrar" value="">
     		<label for="abrir-cerrar">&#9776; <span class="abrir"></span><span class="cerrar"></span></label>
@@ -31,9 +31,45 @@
             				<p>Elige Tiempo</p>
             			</div>
             		</li>
-            		<li><a href="#">Opción 3</a></li>
-            		<li><a href="#">Opción 4</a></li>
-           			<li><a href="#">Opción 5</a></li>
+            		<li id="li2">
+            			<div>
+            				<ul>
+            					<li><img src="img/1.jpeg"><h3>1 x Burger</h3><h4>$15.000</h4></li>
+            					<li><img src="img/papas.jpg"><h3>1 x Papas</h3><h4>$10.000</h4></li>
+            					<li><img src="img/salsa.jpg"><h3>1 x SalsaQ</h3><h4>$2.000</h4></li>
+            					<li><img id="deliver" src="img/domicilio.png"><h3>Envio</h3><h4>$0</h4></li>
+            				</ul>
+            			</div>
+            		</li>
+            		<li id="li3">
+            			<div>
+            				<h3>Total:</h3>
+            				<h2>$27.000</h2>
+            			</div>
+            		</li>
+           			<li id="li4">
+           				<div>
+           					<fieldset>
+           						<legend>Personas</legend>
+           						<select>
+           						<option>1</option>
+           						<option>2</option>
+           						<option>3</option>
+           						<option>4</option>
+           						<option>5</option>
+           						<option>6</option>
+           						<option>7</option>
+           						<option>8</option>
+           						<option>9</option>
+           						<option>10</option>
+           						</select>
+           					</fieldset>
+           				    <div>
+           						<h3>Verificar</h3>
+           						<img id="imgX" src="icons/109617.svg">
+           					</div>
+           				</div>
+           			</li>
         		</ul>
     		</div>
 		  </form>
@@ -60,7 +96,7 @@
 			<select>
 				<option><img id="imgz" src="icons/149316.svg"> Envío: Ahora</option>
 				<option><img id="imgz" src="icons/149316.svg"> Envío: 1/2 Hora</option>
-				<option><img id="imgz" src="icons/149316.svg"> Envío: 1 Horas</option>
+				<option><img id="imgz" src="icons/149316.svg"> Envío: 1 Hora</option>
 			</select>
 		</div>
 		<div class="div3_2">

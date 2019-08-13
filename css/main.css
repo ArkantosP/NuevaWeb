@@ -1,5 +1,7 @@
 /*****Body*****/
-
+body{
+	background: #F7F7F7;
+}
 /*****Primer Div*****/
 
 .div1{
@@ -82,7 +84,7 @@
 #li1{
 	background: #654ED9;
 	padding: 20px 20px;
-	margin: 40px auto;
+	margin: 10px auto;
 	border-radius: 20px;
 	text-align: left;
 	font-family: 'Helvetica', sans-serif;
@@ -131,6 +133,75 @@
 	color: #E87800;	
 }
 
+#li2 div ul{
+	width: 250px;
+}
+
+#li2 li h3{
+	font-family: 'Helvetica', sans-serif;
+	font-size: 13px;
+	display: inline-block;
+}
+
+#li2 li h4{
+	font-family: 'Helvetica', sans-serif;
+	font-size: 10px;
+	display: inline-block;
+	margin: auto 5px;
+}
+
+#li3 h3{
+	font-family: 'Julius Sans One', sans-serif;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+#li3 h2{
+	font-family: 'Helvetica', sans-serif;
+	display: inline-block;
+	margin-left: 20px;
+}
+
+#li4 select{
+	border-radius: 15px;
+	width: 82px;
+	height: 32px;
+	display: inline-block;
+	float: left;
+}
+
+#li4 h3{
+	font-family: 'Julius Sans One', sans-serif;
+	font-size: 12px;
+	display: inline-block;
+}
+
+#li4 div{
+	width: 112px;
+	display: inline-block;
+}
+
+#li4 div div{
+	width: 120px;
+	float: right;
+	background: #F9FB5E;
+	border-radius: 15px;
+	vertical-align: middle;
+}
+
+#li4 #imgX{
+	display: inline-block;
+	margin: 0;
+}
+
+#li4 fieldset{
+	width: 40px;
+	border: none;
+	margin-right: 0;
+	font-family: 'Julius Sans One', sans-serif;
+	font-size: 13px;
+}
+
 input#abrir-cerrar {
     visibility:hidden;
     position: absolute;
@@ -146,6 +217,7 @@ label[for="abrir-cerrar"] {
     height: 20px;
     text-align: center;
     border-radius: 20px;
+    margin: 0;
 }
 
 .cerrar {
@@ -165,7 +237,7 @@ input#abrir-cerrar:checked ~ #sidebar {
 }
 
 input#abrir-cerrar:checked + label[for="abrir-cerrar"], input#abrir-cerrar:checked ~ #contenido {
-    margin-right:300px;
+    margin-right:;
     transition: margin-right .2s;
 }
 
@@ -182,7 +254,7 @@ input#abrir-cerrar:checked + label[for="abrir-cerrar"] .abrir {
     position: fixed;
     height: 100%;
     width: 0;
-    top: 46px;
+    top: 0px;
     right: 0;
     z-index: 1;
     background-color: #fff;
@@ -191,7 +263,6 @@ input#abrir-cerrar:checked + label[for="abrir-cerrar"] .abrir {
     padding: 1rem 0;
     box-sizing:border-box;
     border-left: 2px solid #FFBC74;
-    border-top: 2px solid #FFBC74;
     border-bottom: 2px solid #FFBC74;
 }
 
@@ -217,7 +288,7 @@ input#abrir-cerrar:checked + label[for="abrir-cerrar"] .abrir {
 }
 
 .sidebar ul {
-    margin: 4rem auto;
+    margin: 1rem auto;
     display: block;
     width: 80%;
     min-width:100px;
@@ -245,6 +316,38 @@ input#abrir-cerrar:checked + label[for="abrir-cerrar"] .abrir {
 .abrir-cerrar {
     color: #2E88C7;
     font-size:1rem;   
+}
+
+#li2 ul{
+	margin: 0;
+	width: 70px;
+}
+
+#li2 ul li{
+
+}
+
+#li2 img{
+	width: 80px;
+    display: inline-block;
+    margin: 4px;
+    padding: 3px 3px;
+    border-radius: 12px;
+}
+
+#li2 #deliver{
+	width: 50px;
+}
+
+#li2 img:hover{
+	background-color: #;
+	border-radius: 0;
+	-webkit-transform: 0;
+	-webkit-transition-timing-function: 0;
+	-webkit-transition-duration: 0;
+	-moz-transform: 0;
+	-moz-transition-timing-function:0;
+	-moz-transition-duration: 0;
 }
 
 
@@ -365,7 +468,7 @@ h1:hover{
 }
 
 .div3 option{
-	background-color: #F9FB5E;
+	background-color: #FFBC74;
 	text-align: right;
 }
 
@@ -392,6 +495,14 @@ h1:hover{
 
 .div3 .div3_1{
 	height: 42px;
+	background: #fff;
+	border-top: 1px solid #E6E6E6;
+	border-bottom: 2 solid #E6E6E6;
+	border-radius: 15px;
+}
+
+.div3 .div3_1 select{
+	color: #fff;
 }
 
 .div3 #imgz{
@@ -473,6 +584,13 @@ h1:hover{
 
 /*****Cuarto Div*****/
 
+.div4{
+	background: #fff;
+	border-top: 1px solid #E6E6E6;
+	border-bottom: 2 solid #E6E6E6;
+	border-radius: 15px;
+}
+
 .div4 ul{
 	margin-left: 12%;
 	display: inline-block;
@@ -493,6 +611,19 @@ h1:hover{
 
 }
 
+.div4 #div4__1 h3{
+	background: #fff;
+	width: 110px;
+	margin: 0 auto;
+	margin-top: 0;
+	font-family: 'Helvetica', sans-serif;
+	border-radius: 10px;
+	color: #FFF3EA;
+	text-shadow: -1px -1px 0 #000,  
+                  1px -1px 0 #000,
+  		         -1px 1px 0 #000,
+                  1px 1px 0 #000;
+}
 .div4 #frutas{
 	font-size: 12px;
 }
@@ -537,6 +668,10 @@ h1:hover{
 	height: 167px;
 	border:1px solid #F9FB5E;;
 	border-radius: 20px; 
+}
+
+.div4 #div4__1 #im{
+	margin-bottom: -26px;
 }
 
 .div4 #img4{
