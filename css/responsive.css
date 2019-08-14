@@ -125,9 +125,9 @@
 
 @media all and (min-width: 660px){
 	.div1{
-	background: #E87800;
-	border-top: 2px solid #FFBC74;
-	border-bottom: 2px solid #FFBC74;
+	background: #fff;
+	border-top: 4px solid #FFBC74;
+	border-bottom: 4px solid #FFBC74;
 	text-align: center;
 	margin: 0 0 100px 0;
 }
@@ -137,7 +137,7 @@
 	font-size: 15px;
 	font-family: 'Arial';
 	padding: 10px 40px 13px;
-	background: #fff;
+	background: #F7F7F7;
 	border-radius: 20px;
 	margin: 0 5px;
 	display: inline-block;	

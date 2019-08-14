@@ -5,9 +5,9 @@ body{
 /*****Primer Div*****/
 
 .div1{
-	background: #E87800;
-	border-top: 2px solid #FFBC74;
-	border-bottom: 2px solid #FFBC74;
+	background: #fff;
+	border-top: 4px solid #FFBC74;
+	border-bottom: 4px solid #FFBC74;
 	text-align: center;
 	margin: 0 0 100px 0;
 }
@@ -50,7 +50,7 @@ body{
 	font-size: 15px;
 	font-family: 'Arial';
 	padding: 10px 13px 13px;
-	background: #fff;
+	background: #F7F7F7;
 	border-radius: 20px;
 	margin: 0 5px;
 	display: inline-block;	
@@ -211,7 +211,7 @@ input#abrir-cerrar {
 label[for="abrir-cerrar"] {
     cursor:pointer;
     padding: 10px 10px;
-    background-color: #D76F00;
+    background-color: #E87800;
     color:#fff;
     width: 20px;
     height: 20px;
@@ -234,6 +234,7 @@ label[for="abrir-cerrar"] {
 
 input#abrir-cerrar:checked ~ #sidebar {
     width:300px;
+    border-left: 2px solid #FFBC74;
 }
 
 input#abrir-cerrar:checked + label[for="abrir-cerrar"], input#abrir-cerrar:checked ~ #contenido {
@@ -262,7 +263,6 @@ input#abrir-cerrar:checked + label[for="abrir-cerrar"] .abrir {
     transition: 0.4s;
     padding: 1rem 0;
     box-sizing:border-box;
-    border-left: 2px solid #FFBC74;
     border-bottom: 2px solid #FFBC74;
 }
 
@@ -316,6 +316,10 @@ input#abrir-cerrar:checked + label[for="abrir-cerrar"] .abrir {
 .abrir-cerrar {
     color: #2E88C7;
     font-size:1rem;   
+}
+
+#li2{
+	margin-left: -28px;
 }
 
 #li2 ul{
@@ -496,13 +500,14 @@ h1:hover{
 .div3 .div3_1{
 	height: 42px;
 	background: #fff;
-	border-top: 1px solid #E6E6E6;
-	border-bottom: 2 solid #E6E6E6;
+	border-top: 4px solid #FFBC74;
+	border-bottom: 4px solid #FFBC74;
 	border-radius: 15px;
 }
 
 .div3 .div3_1 select{
 	color: #fff;
+	margin-top: 1px;
 }
 
 .div3 #imgz{
